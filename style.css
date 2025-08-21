@@ -45,39 +45,3 @@ footer {
   background: #eee;
   margin-top: 2rem;
 }
-
-
-
-/* Header styling */
-header {
-  text-align: center;      /* centers header text */
-  padding: 2rem;
-  background: #222;
-  color: #fff;
-}
-
-/* Make images responsive */
-img {
-  max-width: 100%;         /* image scales to container */
-  height: auto;            /* keep aspect ratio */
-  display: block;
-  margin: 1rem auto;       /* center image with space above/below */
-  border-radius: 50%;      /* optional: makes circular headshot */
-}
-
-/* Optional: adjust About section text spacing */
-#about p {
-  max-width: 600px;
-  margin: 1rem auto;
-  text-align: center;      /* center text under image */
-}
-
-/* Mobile-specific adjustments */
-@media screen and (max-width: 600px) {
-  header h1 {
-    font-size: 1.8rem;
-  }
-  header p {
-    font-size: 1rem;
-  }
-}
